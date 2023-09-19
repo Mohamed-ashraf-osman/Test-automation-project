@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <parameter name="browser" value="chrome" />
+    <test name="Regression Test in chrome">
+        <classes>
+            <class name="TestCases.UsersTest">
+                <methods>
+                    <include name="createUser" />
+                    <include name="getCreatedUserByUserName" />
+                    <include name="PutUserByName" />
+                    <include name="getUserUpdated" />
+                    <include name="deleteUserByName" />
+                    <include name="checkUserDeleted" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
