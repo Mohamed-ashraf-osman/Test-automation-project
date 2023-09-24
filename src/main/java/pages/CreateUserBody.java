@@ -1,4 +1,4 @@
-package utils;
+package pages;
 
 public class CreateUserBody {
     private int id;
