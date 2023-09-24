@@ -1,4 +1,4 @@
-package usersData;
+package utils;
 
 public class CreateUserBody {
     private int id;
